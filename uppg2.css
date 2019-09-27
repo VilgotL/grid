@@ -1,0 +1,53 @@
+body {
+    color:lightblue;
+    background-color:black;
+	font-family:arial;
+}
+h1 {
+    font-family:arial;
+    font-size:22px;
+}
+p.program {
+    background-color:red;
+    color:white;
+    text-align:center;
+	padding: 5px;
+}
+p.tankar {
+    text-align:right;
+}
+p.mig {
+    border-style:solid;
+    border-color:yellow;
+	padding:5px;
+}
+a {
+    text-decoration:none;
+	color:red;
+}
+a:hover {
+	color:lightgreen;
+}
+.wrapper {
+	display: grid;
+	grid-template-columns: repeat(3, 1fr);
+	grid-template-areas: "content1 content2 content3";
+	margin:10px;
+}
+.content1 {
+	display: grid;
+	grid-area:"content1";
+	margin:20px;
+}
+.content2 {
+	display: grid;
+	grid-area: "content2";
+    margin:20px;
+}
+.content3 {
+	display: grid;
+	grid-area: "content3";
+	margin:20px;
+}
+
+	
